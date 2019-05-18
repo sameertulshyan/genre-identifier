@@ -1,4 +1,4 @@
-## Genre Identifier
+# Genre Identifier
 This application is designed to identify and classify books based on their genre. The application checks for the presence of certain keywords and computes their point values (based on a csv file that the user must provide), crawls through the text description of each book and determines the genre accordingly.
 
 All book descriptions are run against their title (based on a JSON file that the user must provide), and then each title is printed, along with the top three genres it matches.

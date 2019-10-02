@@ -13,6 +13,14 @@ All book descriptions are run against their title (based on a JSON file that the
 
 In order to run this program:
 
+```bash
+# cd into src folder
+cd src
+
+# compile java files
+javac ./*.java
+```
+
 1. Compile the .java files
 2. Run the IdentifyCorrectGenre object file and provide as arguments:
 	1. A valid path to the JSON file containing the information for each book and its description

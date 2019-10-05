@@ -18,11 +18,11 @@ In order to run this program:
 cd src
 
 # compile java files
-javac ./*.java
-```
+javac *.java
 
-1. Compile the .java files
-2. Run the IdentifyCorrectGenre object file and provide as arguments:
-	1. A valid path to the JSON file containing the information for each book and its description
-	2. A valid path to the CSV file containing the information for each genre and its keywords
+# run the IdentifyCorrectGenre class and provide as arguments:
+# 1. A valid path to the JSON file containing the information for each book and its description
+# 2. A valid path to the CSV file containing the information for each genre and its keywords
+java IdentifyCorrectGenre sample_book_json sample_genre_keyword_value.csv
+```
 
